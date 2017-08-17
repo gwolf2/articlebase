@@ -8,14 +8,12 @@
 module.exports = {
 
   attributes: {
-    title: {
-      type: 'string',      
-    },
-    body: {
+    title:{
       type: 'string'
+    },
+    body:{
+      type:'string'
     }
-
   },
-  connection: 'mongodb'
+  connection:'mongodb'
 };
-
